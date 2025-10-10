@@ -6,6 +6,8 @@ This project demonstrates parameter-efficient QLoRA fine-tuning on a code debugg
 
 Here's the dataset used: `koutch/stackoverflow_python`
 
+**Note**: Some warnings may appear during training related to LoRA adapters, 4-bit merging, or `torch.utils.checkpoint` settings. These are expected and can be safely ignored.
+
 ## Images
 
 ### Gradio Interface with Example Debugging
